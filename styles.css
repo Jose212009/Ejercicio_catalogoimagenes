@@ -1,0 +1,33 @@
+
+body{
+  margin: 8px;
+  padding: 8px;
+  font-family: Verdana, serif;
+}
+header{
+  height: 70px;
+  line-height: 70px;
+  padding-left: 40px;
+  background: #3e3e49;
+  color: #FFFFFF;
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+section{
+    background: #bdb9b9;
+  }
+  article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: dashed 1px #0e0d0d;
+    margin: 10px;
+    padding: 25px;
+  }
